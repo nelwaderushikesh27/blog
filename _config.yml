@@ -1,0 +1,9 @@
+title: Rushikesh's Tech Blog
+description: Android Developer sharing knowledge about Kotlin, Android, and Software Engineering
+theme: jekyll-theme-cayman
+show_downloads: true
+google_analytics:
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap

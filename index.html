@@ -1,0 +1,31 @@
+---
+layout: home
+---
+
+# 👋 Welcome to My Blog
+
+I'm **Rushikesh**, an Android Developer passionate about building mobile applications and sharing knowledge.
+
+## 📚 Recent Posts
+
+{% for post in site.posts limit:5 %}
+### [{{ post.title }}]({{ post.url }})
+*{{ post.date | date: "%B %d, %Y" }}*
+
+{{ post.excerpt | strip_html | truncate: 150 }}
+
+---
+{% endfor %}
+
+## 🏷️ Categories
+
+- **Android Development** - Kotlin, Jetpack Compose, Material Design
+- **Software Engineering** - Best practices, architecture patterns
+- **Tutorials** - Step-by-step guides
+- **Tools** - Productivity and developer tools
+
+## 🔗 Connect
+
+- [GitHub](https://github.com/nelwaderushikesh27)
+- [LinkedIn](https://linkedin.com/in/yourusername)
+- [Twitter](https://twitter.com/yourusername)
